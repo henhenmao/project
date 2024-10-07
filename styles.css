@@ -1,0 +1,164 @@
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.heading-container{
+    padding-top: 25px;
+    padding-bottom: 75px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 50px;
+}
+
+.top-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F9FAF8;
+}
+
+.link-container {
+    display: flex;
+    gap: 20px;
+}
+
+.heading-items {
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    align-items: center;
+    gap: 45px;
+}
+
+.hero-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: fex-st;
+    align-items: flex-start;
+}
+
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 15px 0;
+}
+
+button {
+    padding: 8px 4px;
+    width: 100px;
+    background-color: #3882F6;
+    border-radius: 25px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.heading-image {
+    max-width: 500px;
+    height: auto;
+    flex: 1;
+}
+
+
+.body-text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.information-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 50px 0;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.info-img {
+    width: 100px;
+    height: auto;
+}
+
+.info-text {
+    max-width: 200px;
+}
+
+.quote-container {
+    padding: 75px 300px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.quote {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.author {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: right;
+}
+
+
+.ad-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px 150px;
+    margin: 75px 300px;
+    gap: 100px;
+}
+
+.ad-heading {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
+.ad-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
